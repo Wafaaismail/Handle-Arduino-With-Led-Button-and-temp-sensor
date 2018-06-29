@@ -31,20 +31,26 @@ to serial monitor which is configure to send at 9600 Bude Rate ( is a common mea
 
 To convert reading to voltage  as following :
 
+
   -Voltage at pin in milliVolts = (reading from ADC) * (5000/1024) 
+  
   -This formula converts the number 0-1023 from the ADC into 0-5000mV (= 5V).
 
 then Convert it to Celiuis as following :
+
   -from 10 mv per degree wit 500 mV offse to degrees ((voltage - 500mV) times 100).
+  
  
 then to Fehrnihit with the formula : (temperatureC * 9.0 / 5.0) + 32.0 .
 
 With helping of millis(); Function it enable the program to run clearly without interfering as .
 
 Code :
+
+
  As  illustrated at main.c file 
- i built 4 functions to handel the program functionality a
- nd with the help of built in functions as millis(); ,Serial.Println(""),attachInterrupt(),etc...
+ I built 4 functions to handel the program functionality and with the help of built in functions as millis(); ,Serial.Println(""),attachInterrupt(),etc...
+ 
  
  this is a link of circuit simulation it is very useful to check :
  
