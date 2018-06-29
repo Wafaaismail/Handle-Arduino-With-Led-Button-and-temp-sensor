@@ -37,7 +37,7 @@ and i use a delay that freeze the program , then i know about millis(); taht sol
 I choose to use arduino (i know c well and handling with tiva c using keil but i don't have the board ) As i good method with a lot of library and many of online Tutorial to help if i need help .
 I use ardunio previously in some workshops and project as (smart home prototype using keypad ,servo motor ,leds and with mobile app) so but i start read some examples to remember function and dealinig with it . but it is a good experiance to work with ardunio again .
 
-i use tinkerpad to test my code and check the output .
+i use tinkercad to test my code and check the output .
 
 this is the link :https://www.tinkercad.com/things/1b3iI0Tw70G 
 
