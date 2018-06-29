@@ -21,7 +21,7 @@ int reading;
 unsigned long previousMillis = 0;        // will store last time LED was updated
 
 // constants won't change:
-const long interval = 1000;           // interval at which temp send to serial (milliseconds)
+const long interval = 3000;           // interval at which temp send to serial (milliseconds)
 
 /***********************Prototypes*************************/
 void checkInterval(unsigned long currentMillis);
