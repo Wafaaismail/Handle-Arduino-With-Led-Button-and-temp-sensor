@@ -2,13 +2,16 @@
 
 Controlling led using switch and Reading Tempreature using Tempreature sensor (LM36)
 
-Componants 
+Components :
 
-1-Ardunio UNO
-2-Red Led 
-3-Switch 
-4-Tempreature Sensor (LM36)
-5-Resistor
-6-Wires
+Arduino UNO .
+LED .
+Push-button .
+Resistors .
+LM35 (temperture sensor) .
+
 
 Circuit 
+
+![capture](https://user-images.githubusercontent.com/20702455/42103549-b2a9628a-7bc9-11e8-9236-0d3e650b0dfb.PNG)
+
